@@ -19,4 +19,18 @@ grammar_cjkRuby: true
  6. 调用`RequestMappingInfoHandlerMapping.getMatchingMapping`方法内的`info.getMatchingCondition(request);`
  7. 调用`RequestMappingInfo.getMatchingCondition`方法内，最后返回`RequestMappingInfo`
 
+![DispatcherServlet.getHandle](./images/1621671272546.png)
+
+![DispatcherServlet.getHandler](./images/1621671313169.png)
+
+![AbstractHandlerMethodMapping.getHandlerInterna](./images/1621671354073.png)
+
+![lookupHandlerMethod](./images/1621671394913.png)
+
+![addMatchingMappings](./images/1621671428570.png)
+
+![RequestMappingInfoHandlerMapping.getMatchingMapping](./images/1621671464101.png)
+
+![RequestMappingInfo.getMatchingCondition](./images/1621671516766.png)
+
 > `RequestMappingInfo`可以看成是`@RequestMapping`注解解析后的对象信息
